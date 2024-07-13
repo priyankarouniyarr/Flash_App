@@ -33,6 +33,30 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+<script>// Import the functions you need from the SDKs you need
+  import { initializeApp } from "firebase/app";
+  import { getAnalytics } from "firebase/analytics";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+  
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDTK-oE0UrTrmrNwIYhhNgtMKLoK5hOO3k",
+    authDomain: "flashchat-5e1bf.firebaseapp.com",
+    projectId: "flashchat-5e1bf",
+    storageBucket: "flashchat-5e1bf.appspot.com",
+    messagingSenderId: "22590683575",
+    appId: "1:22590683575:web:f37f533f2f9a5028109032",
+    measurementId: "G-2PRL3YR6XB"
+  };
+  
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+  </script>
+
+
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
