@@ -18,6 +18,7 @@ void main() async {
   return runApp(FlashChat());
 }
 
+
 class FlashChat extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
